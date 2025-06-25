@@ -1,0 +1,110 @@
+body {
+    margin:0;
+    font-family: Arial,sans-serif;
+    background: burlywood;
+    background-image: url(backgroun\ image.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+.container {
+    max-width: 450px;
+    margin: 90px auto;
+    background: rgb(0, 145, 108);
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) ;
+    border-radius: 20px;
+    
+}
+
+button {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    font-size: 16;
+    cursor: pointer;
+    transition: background 0.3s;
+}
+
+button:hover {
+    background-color: gray;
+}
+button:active {
+    animation: bounce 0.3s ease;
+}
+
+@keyframes bounce {
+    0% {transform: scale(1);}
+    50% {transform: scale(0.95);}
+    100% {transform: scale(1);}
+}
+.button-link {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+.button-link {
+  display: inline-block;
+  background-color: #28a745;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.button-link {
+  display: inline-block;
+  background-color: #28a745;
+  color: blue;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background 0.3s;
+}
+
+.bounce-img:hover {
+    transition: transform 0.3s;
+}
+
+.bounce-img:hover {
+    animation: bounce 0.5s;
+}
+@keyframes bounce {
+    0% { transform: translateY(0); }
+    50% { transform: translateY(-15px); }
+    100% { transform: translateY(0); }
+}
+/* Add this at the end of styles.css */
+@media (max-width: 600px) {
+  .container {
+    max-width: 95vw;
+    padding: 10px;
+    background: rgba(0, 145, 108, 0.7); /* semi-transparent */
+  }
+}
+  img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1s ease-in forwards;
+}
+
+@keyframes fadeIn {
+  to { opacity: 1; }
+}
+.fade-in {
+  opacity: 0;
+  animation: fadeIn 1.5s ease-in forwards;
+}
+

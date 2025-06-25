@@ -1,0 +1,25 @@
+body {
+    margin:0;
+    font-family: Arial,sans-serif;
+    background: burlywood;
+}
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    background: thistle;
+    padding: 40px;
+    text-align: center;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.1) ;
+    border-radius: 10px;
+}
+
+    @media (max-width: 600px) {
+  .container {
+    max-width: 95vw;
+    padding: 10px;
+    background: rgba(0, 145, 108, 0.7); /* semi-transparent */
+  }
+}
+
+
+
